@@ -111,3 +111,7 @@ export function usePage() {
     version: computed(() => page.value.version),
   }
 }
+
+export function useProp(prop) {
+  return computed(() => page.value.props[prop])
+}
