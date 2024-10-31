@@ -1,7 +1,0 @@
-export { default as page } from './page'
-export { default as inertia } from './link'
-export { default as useForm } from './useForm'
-export { default as createInertiaApp } from './createInertiaApp'
-export { default as useRemember, default as remember } from './useRemember'
-export { default as App, default as InertiaApp, default as app } from './App.svelte'
-export { default as Link, default as InertiaLink, default as link } from './InertiaLink.svelte'
